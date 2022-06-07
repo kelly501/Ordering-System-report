@@ -1,0 +1,77 @@
+/* 頁面基本樣式 */
+body, td, input, textarea { 
+ font-family:Arial; 
+ font-size:12px; 
+} 
+   
+/* 主題的樣式 */
+#thread { 
+ border:1px solid black; 
+ width:300px; 
+ margin-bottom:10px;
+ background: #FF8888; 
+} 
+   
+/* 提示信息div的樣式 */
+#statusDiv { 
+ border:1px solid #999; 
+ background:#FFFFCC; 
+ width:100px; 
+ position:absolute; 
+ top:50%; 
+ left:50%; 
+ margin:-50px 0 0 -100px; 
+ width:280px; 
+} 
+   
+/* 帖子的樣式 */
+div.post { 
+ border-bottom:1px solid black; 
+ padding:5px; 
+} 
+   
+/* 帖子title的樣式 */
+div.post_title { 
+ border-bottom:1px dashed solid black; 
+ font-weight:bold; 
+} 
+   
+/* 帖子content的樣式 */
+div.post_content { 
+ font-size:12px; 
+ margin:5px; 
+} 
+   
+/* 回帖表格基本樣式 */
+table.reply { 
+ border-collapse:collapse; 
+ width:300px; 
+} 
+   
+/* 回帖表格單元格樣式 */
+table.reply td { 
+ border:1px solid black; 
+ padding:3px; 
+} 
+   
+/* 回帖表格表頭樣式 */
+table.reply td.title { 
+ background:#FF8888; 
+ color:#FFFFFF; 
+} 
+   
+/* 表單元素樣式 */
+input, textarea { 
+ border:1px solid black; 
+} 
+   
+/* 文字區域樣式 */
+textarea { 
+ width:200px; 
+ height:50px; 
+} 
+   
+/* 預定義格式樣式 */
+pre { 
+ margin:0; 
+}
