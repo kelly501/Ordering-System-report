@@ -1,5 +1,5 @@
 # 專題報告_點餐系統
-運用html、php、jason、ajax、CSS、資料庫等技術製作網頁版點餐系統
+運用Html、php、JavaScript、CSS、Sql等技術製作網頁版點餐系統
 
 ## 功能列表
 1. 登入/註冊、寄收gmail認證信  
